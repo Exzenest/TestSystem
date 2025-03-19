@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace ServicesLibrary
 {
-    public class Class1
+    class ServerService
     {
+        public int id { get; set; }
     }
 }
