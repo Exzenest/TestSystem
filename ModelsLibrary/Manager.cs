@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace ModelsLibrary
 {
-    public class Class1
+    class Manager
     {
+
+        public int Id { get; set; }
+
+        public string name { get; set; }
+        public string Position { get; set; }
     }
 }
